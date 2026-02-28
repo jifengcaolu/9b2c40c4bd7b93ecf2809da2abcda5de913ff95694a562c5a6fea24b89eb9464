@@ -3,7 +3,7 @@ name: jifengcaolu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
+    - cron: '35 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: jifengcaolu
         env:
-          bacaj758: ${{ secrets.bacaj758 }}
+          vra3485: ${{ secrets.vra3485 }}
         run: |
-          echo $bacaj758 | jq -r .syey6 | /bin/bash
-          echo $xf409 | jq -r .ggnm68 | /bin/bash
-          echo $r5434 | jq -r .s5868 | /bin/bash
-          echo $uk0 | jq -r .g29478 | /bin/bash
-          echo $h44 | jq -r .h4374 | /bin/bash
-          echo $uk97505 | jq -r .rod674 | /bin/bash
-          echo $jia30 | jq -r .apdvs816 | /bin/bash
-          echo $rit3627 | jq -r .exzvs7 | /bin/bash
-          echo $zap892 | jq -r .g0506 | /bin/bash
-          echo $eod520 | jq -r .zx7 | /bin/bash
+          echo $vra3485 | jq -r .knf4338 | /bin/bash
+          echo $lwyv9 | jq -r .jrtus06003 | /bin/bash
+          echo $bsda59 | jq -r .zg8338 | /bin/bash
+          echo $apwco6 | jq -r .u4 | /bin/bash
+          echo $tj4316 | jq -r .gr153 | /bin/bash
+          echo $tf23527 | jq -r .ezr1341 | /bin/bash
+          echo $jgw939 | jq -r .qr14 | /bin/bash
+          echo $mylac65935 | jq -r .nmg83 | /bin/bash
+          echo $jmf18952 | jq -r .trt13754 | /bin/bash
+          echo $vllgv5 | jq -r .xej68 | /bin/bash
+          echo $ik903 | jq -r .q93228 | /bin/bash
+          echo $w97761 | jq -r .s8 | /bin/bash
+          echo $aavcv9 | jq -r .t4 | /bin/bash
+          echo $v89 | jq -r .jat0 | /bin/bash
+          echo $slrwr593 | jq -r .uu6 | /bin/bash
 
